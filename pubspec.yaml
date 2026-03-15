@@ -1,0 +1,27 @@
+name: mobile_banking_app
+description: Skeleton of a mobile internet banking app with mocked data.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+  go_router: ^14.6.2
+  fl_chart: ^0.68.0
+  intl: ^0.20.2
+  equatable: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
